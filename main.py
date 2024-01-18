@@ -7,10 +7,11 @@ print(coding)
 if(coding):
   nwords = []
   for word in words:
+    #if the length of the string is greater than or equal to 3 shift the first alphabet of the string in end and add random 3 alphabets at start and end of the string.
     if(len(word)>=3):
-      #if the length of the string is greater than or equal to 3 shift the first alphabet of the string in end and add random 3 alphabets at start and end of the string
-      r1 = "zgh"
-      r2 = "oph"
+      #variables with random text
+      r1 = "zgh" 
+      r2 = "oph" 
       stnew = r1+ word[1:] + word[0] + r2
       nwords.append(stnew)
     #if the length of the word is less than 3 reverse the word
