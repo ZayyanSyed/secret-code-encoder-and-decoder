@@ -1,7 +1,7 @@
 #Encoding
 st = input("Enter message: ") #input from the user
 words = st.split(" ")
-coding = input("1 for Coding or 0 for Decoding")
+coding = input("1 for Coding or 0 for Decoding: ")
 coding = True if (coding=="1") else False
 print(coding)
 if(coding):
